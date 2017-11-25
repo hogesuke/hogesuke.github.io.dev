@@ -41,18 +41,20 @@ h2 {
   overflow: hidden;
   width: 250px;
   margin: 0 auto 50px auto;
+  display: flex;
 
-  #about-body-left {
-    float: left;
+  .left {
     margin-right: 15px;
   }
 
-  #about-body-right {
-    float: left;
+  .right {
     padding-top: 10px;
 
-    #nickname {
+    .nickname {
       font-size: 25px;
+    }
+    .details {
+      color: rgba(0, 0, 0, 0.5);
     }
   }
 }
